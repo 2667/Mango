@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576EE51E2309EF1600569E62 /* changeDemo.mg in Resources */ = {isa = PBXBuildFile; fileRef = 576EE51D2309EF1500569E62 /* changeDemo.mg */; };
+		576EE5212309EFD200569E62 /* testUrlChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 576EE5202309EFD200569E62 /* testUrlChange.m */; };
+		576EE5BF2309F55200569E62 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576EE5A82309F54300569E62 /* AVOSCloud.framework */; };
+		576EE5C32309F62C00569E62 /* NSObject+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 576EE5C12309F62C00569E62 /* NSObject+AOP.m */; };
 		8967B0FF22CE173F008D4670 /* private_key.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8967B0FD22CE173E008D4670 /* private_key.txt */; };
 		8967B10022CE173F008D4670 /* public_key.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8967B0FE22CE173F008D4670 /* public_key.txt */; };
 		8977D885224CC9070048A954 /* demo.mg in Resources */ = {isa = PBXBuildFile; fileRef = 89FC7DA9224C047700AFC0AC /* demo.mg */; };
@@ -21,8 +25,102 @@
 		BC32E13D2C11D1E1A9D7B3AB /* libPods-MangoFixDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2627AE79A14DF539C2D1C2F /* libPods-MangoFixDemo.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		576EE5A72309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419861A5A791300C5C6C4;
+			remoteInfo = "AVOSCloud-iOS";
+		};
+		576EE5A92309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70CA7F681BDE2DC3000A3B21;
+			remoteInfo = "AVOSCloud-macOS";
+		};
+		576EE5AB2309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83D8CF551C17DAF50094279D;
+			remoteInfo = "AVOSCloud-tvOS";
+		};
+		576EE5AD2309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8320F95C1C1918C60024B45E;
+			remoteInfo = "AVOSCloud-watchOS";
+		};
+		576EE5AF2309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419C31A5A796000C5C6C4;
+			remoteInfo = "AVOSCloudIM-iOS";
+		};
+		576EE5B12309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 704F3B6E1BE0D0180033245C;
+			remoteInfo = "AVOSCloudIM-macOS";
+		};
+		576EE5B32309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE31B1EC97E6E00B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-iOS";
+		};
+		576EE5B52309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE3401EC980DE00B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-macOS";
+		};
+		576EE5B72309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419911A5A791300C5C6C4;
+			remoteInfo = "AVOSCloud-iOSTests";
+		};
+		576EE5B92309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8419CD1A5A796000C5C6C4;
+			remoteInfo = "AVOSCloudIM-iOSTests";
+		};
+		576EE5BB2309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 838CE3231EC97E6E00B24F5B;
+			remoteInfo = "AVOSCloudLiveQuery-iOSTests";
+		};
+		576EE5BD2309F54300569E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D3078A792010739700A4C5FD;
+			remoteInfo = RuntimeTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0EDFFE948A3B02594E2D1D61 /* Pods-MangoFixDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoFixDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangoFixDemo/Pods-MangoFixDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		576EE51C2309E59F00569E62 /* MangoFixDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MangoFixDemo.entitlements; sourceTree = "<group>"; };
+		576EE51D2309EF1500569E62 /* changeDemo.mg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changeDemo.mg; sourceTree = "<group>"; };
+		576EE51F2309EFD200569E62 /* testUrlChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testUrlChange.h; sourceTree = "<group>"; };
+		576EE5202309EFD200569E62 /* testUrlChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUrlChange.m; sourceTree = "<group>"; };
+		576EE5982309F54300569E62 /* AVOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AVOS.xcodeproj; path = "../../../../../Downloads/leancloud-objc-sdk-7555b57/AVOS/AVOS.xcodeproj"; sourceTree = "<group>"; };
+		576EE5C12309F62C00569E62 /* NSObject+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AOP.m"; sourceTree = "<group>"; };
+		576EE5C22309F62C00569E62 /* NSObject+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AOP.h"; sourceTree = "<group>"; };
 		8967B0F322CE0075008D4670 /* MangoFixDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MangoFixDemo.entitlements; path = ../../MangoFixTests/MangoFixDemo.entitlements; sourceTree = "<group>"; };
 		8967B0FD22CE173E008D4670 /* private_key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.txt; sourceTree = "<group>"; };
 		8967B0FE22CE173F008D4670 /* public_key.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = public_key.txt; sourceTree = "<group>"; };
@@ -50,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576EE5BF2309F55200569E62 /* AVOSCloud.framework in Frameworks */,
 				BC32E13D2C11D1E1A9D7B3AB /* libPods-MangoFixDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +156,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		576EE5992309F54300569E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				576EE5A82309F54300569E62 /* AVOSCloud.framework */,
+				576EE5AA2309F54300569E62 /* AVOSCloud.framework */,
+				576EE5AC2309F54300569E62 /* AVOSCloud.framework */,
+				576EE5AE2309F54300569E62 /* AVOSCloud.framework */,
+				576EE5B02309F54300569E62 /* AVOSCloudIM.framework */,
+				576EE5B22309F54300569E62 /* AVOSCloudIM.framework */,
+				576EE5B42309F54300569E62 /* AVOSCloudLiveQuery.framework */,
+				576EE5B62309F54300569E62 /* AVOSCloudLiveQuery.framework */,
+				576EE5B82309F54300569E62 /* AVOSCloud-iOSTests.xctest */,
+				576EE5BA2309F54300569E62 /* AVOSCloudIM-iOSTests.xctest */,
+				576EE5BC2309F54300569E62 /* AVOSCloudLiveQuery-iOSTests.xctest */,
+				576EE5BE2309F54300569E62 /* RuntimeTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6952C940E97417B89B104D8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,12 +213,19 @@
 		899672B1224C02DB00C7DACB /* MangoFixDemo */ = {
 			isa = PBXGroup;
 			children = (
+				576EE5982309F54300569E62 /* AVOS.xcodeproj */,
+				576EE51C2309E59F00569E62 /* MangoFixDemo.entitlements */,
 				8967B0F322CE0075008D4670 /* MangoFixDemo.entitlements */,
 				8967B0FD22CE173E008D4670 /* private_key.txt */,
 				8967B0FE22CE173F008D4670 /* public_key.txt */,
 				89FC7DAB224C047700AFC0AC /* AppDelegate.h */,
 				89FC7DAA224C047700AFC0AC /* AppDelegate.m */,
 				89FC7DA9224C047700AFC0AC /* demo.mg */,
+				576EE51D2309EF1500569E62 /* changeDemo.mg */,
+				576EE5C22309F62C00569E62 /* NSObject+AOP.h */,
+				576EE5C12309F62C00569E62 /* NSObject+AOP.m */,
+				576EE51F2309EFD200569E62 /* testUrlChange.h */,
+				576EE5202309EFD200569E62 /* testUrlChange.m */,
 				89FC7DA4224C046800AFC0AC /* CustomView.h */,
 				89FC7D9E224C046700AFC0AC /* CustomView.m */,
 				89FC7D9F224C046700AFC0AC /* SuperMyController.h */,
@@ -167,12 +292,105 @@
 			mainGroup = 899672A6224C02DA00C7DACB;
 			productRefGroup = 899672B0224C02DB00C7DACB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 576EE5992309F54300569E62 /* Products */;
+					ProjectRef = 576EE5982309F54300569E62 /* AVOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				899672AE224C02DB00C7DACB /* MangoFixDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		576EE5A82309F54300569E62 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 576EE5A72309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5AA2309F54300569E62 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 576EE5A92309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5AC2309F54300569E62 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 576EE5AB2309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5AE2309F54300569E62 /* AVOSCloud.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloud.framework;
+			remoteRef = 576EE5AD2309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5B02309F54300569E62 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = 576EE5AF2309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5B22309F54300569E62 /* AVOSCloudIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudIM.framework;
+			remoteRef = 576EE5B12309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5B42309F54300569E62 /* AVOSCloudLiveQuery.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudLiveQuery.framework;
+			remoteRef = 576EE5B32309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5B62309F54300569E62 /* AVOSCloudLiveQuery.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AVOSCloudLiveQuery.framework;
+			remoteRef = 576EE5B52309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5B82309F54300569E62 /* AVOSCloud-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloud-iOSTests.xctest";
+			remoteRef = 576EE5B72309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5BA2309F54300569E62 /* AVOSCloudIM-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudIM-iOSTests.xctest";
+			remoteRef = 576EE5B92309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5BC2309F54300569E62 /* AVOSCloudLiveQuery-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AVOSCloudLiveQuery-iOSTests.xctest";
+			remoteRef = 576EE5BB2309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		576EE5BE2309F54300569E62 /* RuntimeTestDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RuntimeTestDemo.app;
+			remoteRef = 576EE5BD2309F54300569E62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		899672AD224C02DB00C7DACB /* Resources */ = {
@@ -185,6 +403,7 @@
 				899672BC224C02DC00C7DACB /* Assets.xcassets in Resources */,
 				8977D885224CC9070048A954 /* demo.mg in Resources */,
 				89FC7DAF224C048600AFC0AC /* Main.storyboard in Resources */,
+				576EE51E2309EF1600569E62 /* changeDemo.mg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +440,8 @@
 				89FC7DA6224C046800AFC0AC /* CustomView.m in Sources */,
 				89FC7DA7224C046800AFC0AC /* SuperMyController.m in Sources */,
 				89FC7DA8224C046800AFC0AC /* ViewController.m in Sources */,
+				576EE5C32309F62C00569E62 /* NSObject+AOP.m in Sources */,
+				576EE5212309EFD200569E62 /* testUrlChange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +578,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MangoFixDemo/MangoFixDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59669493D8;
+				DEVELOPMENT_TEAM = 3X523QXRH4;
 				INFOPLIST_FILE = MangoFixDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,7 +598,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MangoFixDemo/MangoFixDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59669493D8;
+				DEVELOPMENT_TEAM = 3X523QXRH4;
 				INFOPLIST_FILE = MangoFixDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

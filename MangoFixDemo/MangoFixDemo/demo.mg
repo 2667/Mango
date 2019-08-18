@@ -9,7 +9,7 @@ declare struct MyStruct {
 }
 
 class ViewController:UIViewController {
-
+//顺序的
 - (void)sequentialStatementExample{
 //变量定义
     NSString *text = @"1";
